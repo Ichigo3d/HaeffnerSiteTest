@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite  name = "Checkboxes">
+    <parameter name="build" value="Demo-TestNG" />
+    <test name = "checkboxes1">
+        <parameter name="os" value="macOS Big Sur" />
+        <parameter name="browser" value="chrome" />
+        <parameter name="version" value="94" />
+        <classes>
+            <class name = "CheckboxesFeature" />
+        </classes>
+    </test>
+    <test name = "checkboxes2">
+        <parameter name="os" value="macOS Big Sur" />
+        <parameter name="browser" value="firefox" />
+        <parameter name="version" value="93" />
+        <classes>
+            <class name = "CheckboxesFeature" />
+        </classes>
+    </test>
+
+</suite>
