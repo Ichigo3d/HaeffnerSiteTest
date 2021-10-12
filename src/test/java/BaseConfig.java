@@ -1,15 +1,10 @@
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeDriverService;
-import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.chrome.*;
+import org.openqa.selenium.firefox.*;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
-
 import java.io.File;
-
 
 public class BaseConfig {
     WebDriver driver;
@@ -43,10 +38,6 @@ public class BaseConfig {
                     .addPreference("javascript.enabled", true);
             driver = new FirefoxDriver(options);
         }
-
-
-
-
     }
 
     @AfterTest

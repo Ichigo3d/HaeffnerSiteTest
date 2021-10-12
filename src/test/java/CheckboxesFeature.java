@@ -1,7 +1,6 @@
 import com.links.PartsUrls;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import pages.CheckBoxPage;
 
