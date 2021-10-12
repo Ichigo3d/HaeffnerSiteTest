@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 import pages.CheckBoxPage;
 
 
-public class CheckboxesFeature extends BaseConfig{
+public class CheckboxesFeatureTest extends BaseConfig{
     CheckBoxPage checkBoxPage;
 
     @Test
